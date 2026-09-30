@@ -17,6 +17,7 @@ developer) never receive your statements, transactions, balances or any other in
 - **Backups.** Decorum makes a daily backup to your own iCloud Drive (if you use iCloud Drive) or to your device. These
   backups are encrypted with a key kept in your device's Keychain. Exports you make are protected with a password you
   choose, which Decorum never stores.
+- **iCloud sync (optional, off by default).** If you turn on iCloud sync, your Decorum data is kept in your own private iCloud database so your other devices signed in to the same Apple Account can show it. Only you can read it: it's stored by Apple under Apple's privacy policy, and we (the developer) can't see or access it. Turn sync off at any time; your data stays on the device.
 - **Passwords.** Passwords for locked PDF statements are used only to open the file and are never stored.
 - **Document Organiser (optional).** If you choose a folder for the Organiser, Decorum renames and files the statements
   you put in that folder, in that folder only. It never deletes files.

@@ -32,6 +32,11 @@ developer) never receive your statements, transactions, balances or any other in
   policy.
 - Nothing else. Decorum contains no third-party code that sends data anywhere.
 
+## Other apps on your device
+- **Calendar (optional).** Without any calendar access, you can add a due date to your calendar through the system's own add-event sheet, which you confirm. If you turn on "Keep a Decorum calendar in sync", Decorum asks for calendar access and writes your due dates to a calendar of its own called Decorum, keeping it up to date. It doesn't read your other calendars or events. Amounts stay out of event titles unless you turn them on. Turning it off removes that calendar.
+- **WhatsApp, Messages and the share sheet.** When you ask someone to pay you back, the PayNow QR and message are made on your device and go only where you send them. "Send on WhatsApp" opens WhatsApp with the message typed in; WhatsApp's own privacy policy applies to what you send there. Your PayNow number and any WhatsApp numbers you choose to remember stay on your device.
+- **Contacts.** Choosing a WhatsApp number from Contacts uses the system's own picker: Decorum sees only the contact you pick, and has no access to your contacts.
+
 ## Feedback
 
 If you choose to send feedback from the app, it opens a message in your own email app for you to review and send.

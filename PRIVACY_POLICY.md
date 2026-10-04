@@ -1,6 +1,6 @@
 # Decorum privacy policy
 
-Last updated: 30 Sep 2026
+Last updated: 5 Oct 2026
 
 Decorum is a personal finance app for iPhone, iPad and Mac. It is built so that your financial information stays with
 you.
@@ -27,6 +27,7 @@ developer) never receive your statements, transactions, balances or any other in
 - **Exchange rates (optional, off by default).** If you turn on daily exchange rates, Decorum downloads the European
   Central Bank's public reference rates once a day. The request contains no information about you; like any web
   request, it reveals your device's IP address to the ECB's website.
+- **HDB resale prices (optional, off by default).** If you turn on "Compare with HDB resale prices" for a home, Decorum downloads the whole public HDB resale file from data.gov.sg, at most    once a month, and works out the median for your town, flat type and size on your device. Nothing about your home is sent: the request is the same for everyone, and like any web request      it reveals your device's IP address to data.gov.sg.
 - **iCloud.** When you use iCloud Drive, backups are stored by Apple in your own iCloud account, under Apple's privacy
   policy.
 - Nothing else. Decorum contains no third-party code that sends data anywhere.

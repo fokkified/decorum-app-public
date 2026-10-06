@@ -1,6 +1,6 @@
 # Decorum privacy policy
 
-Last updated: 5 Oct 2026
+Last updated: 6 Oct 2026
 
 Decorum is a personal finance app for iPhone, iPad and Mac. It is built so that your financial information stays with
 you.
@@ -12,13 +12,16 @@ developer) never receive your statements, transactions, balances or any other in
 
 ## Where your information is kept
 
-- **On your device.** Statements you import are read on your device; the file itself isn't kept. The transactions,
+- **On your device.** Statements you import (PDFs, photos and banks' CSV exports) are read on your device; the file
+  itself isn't kept. The transactions,
   accounts, budgets and other details you create are stored in the app on your device.
 - **Backups.** Decorum makes a daily backup to your own iCloud Drive (if you use iCloud Drive) or to your device. These
   backups are encrypted with a key kept in your device's Keychain. Exports you make are protected with a password you
   choose, which Decorum never stores.
 - **iCloud sync (optional, off by default).** If you turn on iCloud sync, your Decorum data is kept in your own private iCloud database so your other devices signed in to the same Apple Account can show it. Only you can read it: it's stored by Apple under Apple's privacy policy, and we (the developer) can't see or access it. Turn sync off at any time; your data stays on the device.
 - **Passwords.** Passwords for locked PDF statements are used only to open the file and are never stored.
+- **Import accuracy.** Decorum counts, on your device, how often you correct what an import read (by bank and kind of
+  correction: only the numbers, no names, amounts or dates). You can see, export or reset the counts in Profile.
 - **Document Organiser (optional).** If you choose a folder for the Organiser, Decorum renames and files the statements
   you put in that folder, in that folder only. It never deletes files.
 
@@ -27,7 +30,7 @@ developer) never receive your statements, transactions, balances or any other in
 - **Exchange rates (optional, off by default).** If you turn on daily exchange rates, Decorum downloads the European
   Central Bank's public reference rates once a day. The request contains no information about you; like any web
   request, it reveals your device's IP address to the ECB's website.
-- **HDB resale prices (optional, off by default).** If you turn on "Compare with HDB resale prices" for a home, Decorum downloads the whole public HDB resale file from data.gov.sg, at most    once a month, and works out the median for your town, flat type and size on your device. Nothing about your home is sent: the request is the same for everyone, and like any web request      it reveals your device's IP address to data.gov.sg.
+- **HDB resale prices (optional, off by default).** If you turn on "Compare with HDB resale prices" for a home, Decorum downloads the whole public HDB resale file from data.gov.sg, at most once a month, and works out the median for your town, flat type and size on your device. Nothing about your home is sent: the request is the same for everyone, and like any web request it reveals your device's IP address to data.gov.sg.
 - **iCloud.** When you use iCloud Drive, backups are stored by Apple in your own iCloud account, under Apple's privacy
   policy.
 - Nothing else. Decorum contains no third-party code that sends data anywhere.
@@ -42,6 +45,11 @@ developer) never receive your statements, transactions, balances or any other in
 If you choose to send feedback from the app, it opens a message in your own email app for you to review and send.
 Screenshots are covered and statement samples are scrambled on your device first. We receive only what you send, use
 it only to fix and improve Decorum, and delete it when it's no longer needed.
+
+**Report a misread.** If an import reads a statement wrongly, you can make a report from the import screen. Decorum
+replaces names, shops, account and card numbers on your device, multiplies the amounts by a hidden number, and shows you
+what's left before anything else happens. It then opens the share sheet: nothing is sent unless you send it, and only
+where you choose.
 
 ## Notifications and Shortcuts
 

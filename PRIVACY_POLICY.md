@@ -1,6 +1,6 @@
 # Decorum privacy policy
 
-Last updated: 6 Oct 2026
+Last updated: 10 Oct 2026
 
 Decorum is a personal finance app for iPhone, iPad and Mac. It is built so that your financial information stays with
 you.
@@ -19,7 +19,9 @@ developer) never receive your statements, transactions, balances or any other in
   backups are encrypted with a key kept in your device's Keychain. Exports you make are protected with a password you
   choose, which Decorum never stores.
 - **iCloud sync (optional, off by default).** If you turn on iCloud sync, your Decorum data is kept in your own private iCloud database so your other devices signed in to the same Apple Account can show it. Only you can read it: it's stored by Apple under Apple's privacy policy, and we (the developer) can't see or access it. Turn sync off at any time; your data stays on the device.
-- **Passwords.** Passwords for locked PDF statements are used only to open the file and are never stored.
+- **Passwords.** Passwords for locked PDF statements are used to open the file. If you choose "Remember it for this
+  bank", the password is kept in your device's Keychain, on that device only (not in backups or iCloud), and used
+  for that bank's next statements. You can remove it in Profile at any time.
 - **Import accuracy.** Decorum counts, on your device, how often you correct what an import read (by bank and kind of
   correction: only the numbers, no names, amounts or dates). You can see, export or reset the counts in Profile.
 - **Document Organiser (optional).** If you choose a folder for the Organiser, Decorum renames and files the statements
@@ -50,6 +52,12 @@ it only to fix and improve Decorum, and delete it when it's no longer needed.
 replaces names, shops, account and card numbers on your device, multiplies the amounts by a hidden number, and shows you
 what's left before anything else happens. It then opens the share sheet: nothing is sent unless you send it, and only
 where you choose.
+
+**Merchant suggestions (optional).** If you turn on "Suggest my categories for everyone", each time you confirm that a
+merchant should always go in a category, Decorum keeps a suggestion on your device: the merchant's name as your bank
+printed it and the category. It never includes amounts, dates, accounts, notes, transfers to people or categories you
+made. Nothing is sent automatically: suggestions leave your device only if you choose Send suggestions and share the
+file yourself. You can clear them at any time.
 
 ## Notifications and Shortcuts
 
